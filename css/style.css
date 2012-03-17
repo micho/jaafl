@@ -66,6 +66,7 @@ textarea#console {
   margin: 0px;
   line-height: 16px;
   padding-left: 10px;
+  word-wrap: break-word;
 }
 
 .log p.data {

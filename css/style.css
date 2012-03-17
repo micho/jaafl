@@ -3,6 +3,11 @@ body {
   background-color: #fefefe;
 }
 
+h2 {
+  margin-top: 300px;
+  margin-bottom: 20px;
+}
+
 .tutorial {
   padding: 20px;
   position: fixed;
@@ -11,11 +16,12 @@ body {
   left: 0;
   right: 400px;
   overflow: auto;
+  padding-bottom: 500px;
 }
 
 .tutorial header {
   margin-top: 100px;
-  height: 700px;
+  height: 400px;
 }
 
 .tutorial .subtitle {

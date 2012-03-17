@@ -1,15 +1,83 @@
 body {
-  background-image: url(/img/light_wool.png);
+  /* background-image: url(/img/light_wool.png); */
+  background-color: #fefefe;
 }
 
-.container {
-  margin-top: 20px;
+.tutorial {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 400px;
+  overflow: auto;
 }
+
+.tutorial header {
+  margin-top: 100px;
+  height: 500px;
+}
+
+.tutorial .subtitle {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.playground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  border-left: 1px solid #eee;
+}
+
 
 h1 {
   margin-bottom: 15px;
 }
 
-p {
-  font-size: 14px;
+.log p, textarea#console {
+  font-size: 12px;
+  font-family: Monaco, "Lucida Console", "Courier New", Courier;
+}
+
+.log {
+  overflow: auto;
+  position: fixed;
+  top: 0px;
+  bottom: 80px;
+  right: 0;
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+textarea#console {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  right: 10px;
+  width: 370px;
+}
+
+.log p {
+  font-size: 11px;
+  margin: 0px;
+  line-height: 16px;
+  padding-left: 10px;
+}
+
+.log p.data {
+  color: #009;
+}
+
+.log p.error {
+  color: #500;
+}
+
+.log p.command {
+  border-top: 1px solid #eee;
+  padding-top: 3px;
+  margin: 3px 0;
 }

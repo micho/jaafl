@@ -15,77 +15,79 @@
 
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/json2.js"></script>
 </head>
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-  <div class="container">
+  <div class="tutorial">
 
-    <div class="row">
-      <div class="span1" style="padding-top: 60px">
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div class="span7">
-        <h1>JavaScript as a First Language</h1>
-        <h2>Write your first program</h2>
-        <p>Programming is easier than it seems! Through this guide you will learn how it all works. You will be writing your first application in minutes!</p>
-        <ul>
-          <li>Basics of programming</li>
-          <ul>
-            <li>Variables</li>
-            <li>Operations</li>
-            <li>Guidelines for coding</li>
-            <li><b>Write your first lines of code!</b></li>
-          </ul>
-          <li>Represent data</li>
-          <ul>
-            <li>Arrays</li>
-            <li>Objects</li>
-            <li><b>Represent your data in objects!</b></li>
-          </ul>
-          <li>Control the flow of your code</li>
-          <ul>
-            <li>Conditions</li>
-            <li>Switch statement</li>
-            <li><b>Building an interactive program!</b></li>
-          </ul>
-          <li>Create functions to organize behavior</li>
-          <ul>
-            <li>Functions</li>
-            <li>Scope of variables</li>
-            <li><b>Building your own calculator!</b></li>
-          </ul>
-          <li>Events in programming</li>
-          <ul>
-            <li>What are events</li>
-            <li>Handling mouse events</li>
-            <li>Handling keyboard events</li>
-            <li><b>Make an interactive browser</b></li>
-          </ul>
-          <li>Web pages and JavaScript</li>
-          <ul>
-            <li>...</li>
-          </ul>
-          <li>Write a program to draw basic things.</li>
-          <ul>
-            <li>Canvas</li>
-          </ul>
-          <li>Write a very simple game.</li>
-          <ul>
-            <li>...</li>
-          </ul>
-        </ul>
-      </div>
-      <div class="span2">
-        <ul>
-        </ul>
-      </div>
-    </div>
+    <header>
+      <h1>JavaScript as a First Language</h1>
+      <p class="subtitle">Write your first JS program in minutes. Learn by example.</p>
+      <ul>
+        <li>For designers: Understand the basics of programming to design better</li>
+        <li>For engineers: Learn a new tool so you can automate your workflows</li>
+        <li>For everybody: Have fun and understand how programs work!</li>
+      </ul>
+    </header>
+    <h2>Write your first program</h2>
+    <p>Programming is easier than it seems! Through this guide you will learn how it all works. You will be writing your first application in minutes!</p>
+    <ul>
+      <li>Basics of programming</li>
+      <ul>
+        <li>Variables</li>
+        <li>Operations</li>
+        <li>Guidelines for coding</li>
+        <li><b>Write your first lines of code!</b></li>
+      </ul>
+      <li>Represent data</li>
+      <ul>
+        <li>Arrays</li>
+        <li>Objects</li>
+        <li><b>Represent your data in objects!</b></li>
+      </ul>
+      <li>Control the flow of your code</li>
+      <ul>
+        <li>Conditions</li>
+        <li>Switch statement</li>
+        <li><b>Building an interactive program!</b></li>
+      </ul>
+      <li>Create functions to organize behavior</li>
+      <ul>
+        <li>Functions</li>
+        <li>Scope of variables</li>
+        <li><b>Building your own calculator!</b></li>
+      </ul>
+      <li>Events in programming</li>
+      <ul>
+        <li>What are events</li>
+        <li>Handling mouse events</li>
+        <li>Handling keyboard events</li>
+        <li><b>Make an interactive browser</b></li>
+      </ul>
+      <li>Web pages and JavaScript</li>
+      <ul>
+        <li>...</li>
+      </ul>
+      <li>Write a program to draw basic things.</li>
+      <ul>
+        <li>Canvas</li>
+      </ul>
+      <li>Write a very simple game.</li>
+      <ul>
+        <li>...</li>
+      </ul>
+    </ul>
 
   </div> <!-- /container -->
  
+  <div class="playground">
+    <div class="log">
+    </div>
+    <textarea id="console" placeholder="Type your commands here"></textarea>
+
+  </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
